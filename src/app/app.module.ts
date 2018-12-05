@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 
 import {MatToolbarModule} from '@angular/material';
 import {HomeComponent} from './components/home/home.component';
+import { SlideshowComponent } from './components/slideshow/slideshow.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent}
@@ -16,7 +17,8 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    SlideshowComponent
   ],
   imports: [
     BrowserModule,
